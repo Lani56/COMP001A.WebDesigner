@@ -85,9 +85,9 @@ th, td {
     border: 1px solid black;
     padding: .2em .7em;
     text-align: right;
-    &.left{
-            text-align: left;
-    }
+}
+ .left {
+        text-align: left;
 }
 #season, #crop, #time, #price, #sell, #get, thead {
     background-color: rgba(255, 253, 108, 0.607);
