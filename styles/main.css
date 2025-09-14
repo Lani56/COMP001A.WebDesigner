@@ -77,3 +77,35 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
+#table1 {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: .2em .7em;
+    text-align: right;
+    &.left{
+            text-align: left;
+    }
+}
+#season, #crop, #time, #price, #sell, #get, thead {
+    background-color: rgba(255, 253, 108, 0.607);
+}
+tfoot {
+    font-weight: bold;
+}
+#id9, #id10, #id11, #id12, #id13, #id14, tfoot{
+    background-color: rgba(255, 252, 108, 0.607);
+    border: 0
+}
+#table2 {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#season2, #fish, #time2, #weather, #location, thead, tfoot {
+    background-color: rgba(6, 64, 21, 0.444);
+}
+#are, #i, #catch, #them, #all, tfoot {
+    border: 0;
+}
