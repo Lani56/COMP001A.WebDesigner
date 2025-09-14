@@ -48,3 +48,32 @@ ul {
     color: rgba(28, 122, 74, 0.568);
     margin-bottom: 50px;
 }
+label {
+    display: block;
+    margin-bottom: .25em;
+}
+input {
+    width: 100%;
+    font-size: inherit;
+    padding: .4em;
+    margin-bottom: .5em;
+}
+input, button {
+    border-radius: 5px;
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #604f4f;
+    border-radius: 4px;
+}
+button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    background-color: rgb(53, 102, 41, 0.823);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
